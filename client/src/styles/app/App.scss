@@ -1,0 +1,19 @@
+@import "../../Variables/Variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $darkColour1;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}

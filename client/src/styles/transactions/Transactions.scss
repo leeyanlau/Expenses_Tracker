@@ -1,0 +1,25 @@
+@import "../../Variables/Variables.scss";
+
+.txns {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .txns_title {
+    color: $darkFontColour;
+    font-family: $fontTheme;
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .txns_table {
+    display: flex;
+    flex: 1;
+    padding: 2rem;
+    max-height: 75vh;
+
+    .txns_table_header {
+      background-color: $darkColour2;
+    }
+  }
+}

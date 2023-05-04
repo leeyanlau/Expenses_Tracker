@@ -1,0 +1,15 @@
+//colour palette
+$darkColour1: #121212;
+$darkColour2: #232323;
+$darkColour3: #272727;
+$darkColour4: #2f2f2f;
+$darkColour5: #353535;
+
+//font
+$darkFontColour: #a3a3a3;
+$fontTheme: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+@mixin linkText {
+  text-decoration: none;
+  color: $darkFontColour;
+}
